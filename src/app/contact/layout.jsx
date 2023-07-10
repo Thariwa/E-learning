@@ -1,15 +1,12 @@
 import React from 'react'
 
 export const metadata = {
-  title: 'About us - Uidex',
-  description: 'Uidex About us page',
+  title: 'Contact us - Uidex',
+  description: 'Uidex e-learning platform',
 }
-
 
 export default function layout({children}) {
   return (
-    <div>
-        {children}
-    </div>
+    <div>{children}</div>
   )
 }

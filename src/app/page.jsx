@@ -1,5 +1,6 @@
 
 import React from 'react'
+import teach7 from './Pmages/Teacher7.jpg'
 import style from './style.module.css'
 import Image from 'next/image'
 import google from './Images/google.png'
@@ -17,16 +18,23 @@ import {IoIosPaper} from 'react-icons/io'
 import {FaGraduationCap} from 'react-icons/fa'
 import {GiWallet} from 'react-icons/gi'
 import {SiGoogleclassroom} from 'react-icons/si'
+import Link from 'next/link'
+import teach1 from './Pmages/Teacher1.jpg'
+import teach2 from './Pmages/Teacher2.jpg'
+import teach4 from './Pmages/Teacher4.jpg'
+import teach5 from './Pmages/Teacher5.jpg'
+
 
 
 export default function page() {
   return (
 <>
-<div className='bg-sky-100 h-screen flex flex-row '>
+<div className='bg-sky-100 h-screen flex flex-row w-screen'>
       <div className='ml-[100px]'>
          <p className='pt-32  font-bold text-4xl w-80'>Unlock Your Potential with Our Comprehensive <span className='text-gray-500'>E-learning</span> Programs</p>
          <p className='pt-2  text-xl text-gray-500'>Discover a world of knowledge with our online learning platform - Anytime,Anywhere.</p>
-         <button className='border rounded-md border-gray-500 mt-3 mx-2 py-2 px-2 bg-gray-500 text-white hover:bg-white hover:text-gray-500 text-xl'>Get Started</button>
+         <Link href='/Getstarted'><button className='border rounded-md border-gray-500 mt-3 mx-2 py-2 px-2 bg-gray-500 text-white hover:bg-white hover:text-gray-500 text-xl'>Get Started</button></Link>
+         
          <button className='border rounded-md border-gray-500 mt-3 mx-2 py-2 px-2 text-gray-500 hover:bg-gray-500 hover:text-white text-xl'>Explore Courses</button>
       </div>
       <div className={style.clip} >
@@ -40,7 +48,8 @@ export default function page() {
    <div>   
       <div className='ml-[650px]'>
          <p className='mt-12 w-96 text-xl'>Discover a world of knowledge with our online learning platform - Anytime,Anywhere.</p>
-         <button className='border rounded-md border-gray-500 text-gray-500 hover:bg-gray-500 hover:text-white mt-3 px-4  py-2 text-xl'>Explore</button>
+         <Link href='/courses'><button className='border rounded-md border-gray-500 text-gray-500 hover:bg-gray-500 hover:text-white mt-3 px-4  py-2 text-xl'>Explore</button></Link>
+         
       </div>
     <div className='grid grid-cols-3 gap-[300px] '>
       <div className='border rounded-lg w-[389px] h-[420px] bg-sky-100 mt-10 mr-[900px] '>
@@ -87,11 +96,12 @@ export default function page() {
   </div>
 
 
-  <div className=' bg-sky-100 h-[800px]'>
+  <div className=' bg-sky-100 h-[800px] w-screen'>
       <div className='text-center '>
          <p className='text-3xl pt-10'>The quickest and Effective</p>
          <p className='text-3xl'>Way Of <span className='text-gray-500'>Learning</span> </p>
-         <button className='mx-2 text-xl border rounded-md border-gray-500 bg-gray-500 text-white hover:bg-white hover:text-gray-500 px-4  py-2 mt-8'>Get Started</button>
+         <Link href='/Getstarted'><button className='mx-2 text-xl border rounded-md border-gray-500 bg-gray-500 text-white hover:bg-white hover:text-gray-500 px-4  py-2 mt-8'>Get Started</button></Link>
+         
          <button className='mx-2 text-xl border rounded-md border-gray-500 text-gray-500 hover:bg-gray-500 hover:text-white px-4  py-2 mt-8'>Explore Courses</button>
       </div>
       <div className='bg-white w-[920px] h-[470px] m-auto my-10 rounded-3xl' >
@@ -107,7 +117,8 @@ export default function page() {
         <h2 className='text-4xl'>Special <span className='text-gray-500'>Facilities</span></h2>
         <h2 className='text-4xl'>that we provide</h2>
         <p className='text-gray-500 text-xl'>Experience top-tier e-learning with our expert teachers and affordable rates. Engage in interactive virtual classrooms and unlock your learning potential. Join us now for exceptional facilities and accessible education.</p>
-        <button className='mx-2 text-xl border rounded-md border-gray-500 bg-gray-500 text-white hover:bg-white hover:text-gray-500 px-4  py-2 mt-8'>Get Started</button>
+        <Link href='/Getstarted'><button className='mx-2 text-xl border rounded-md border-gray-500 bg-gray-500 text-white hover:bg-white hover:text-gray-500 px-4  py-2 mt-8'>Get Started</button></Link>
+        
       </div>
       <div className='grid grid-cols-3 w-[470px] h-[190px] '>
          
@@ -134,7 +145,7 @@ export default function page() {
    </div>
 
 
-  <div className='bg-sky-100 h-[350px]'>
+  <div className='bg-sky-100 h-[350px] w-screen , {style.swiper}'>
        <div className='text-center text-4xl pt-8'>
           <h2>Collaboration with Various</h2>
           <h2>top <span className='text-gray-500'>companies</span> </h2>
@@ -151,11 +162,84 @@ export default function page() {
       <li><Image src={pin} alt='' width={150} height={200}/></li>
     </ul>
   </div>
-  <div className='h-[800px] mt-8'>
-     <h2 className='text-center text-4xl '>Interesting <span className='text-gray-500'>reviews</span>  from</h2>
-     <h2 className='text-center text-4xl'>our students</h2>
-   </div>
+
+  <div className='h-[700px] mt-8'>
+      <div >
+        <h2 className='text-center text-4xl '>Interesting <span className='text-gray-500'>reviews</span>  from</h2>
+        <h2 className='text-center text-4xl'>our students</h2>
+      </div>
+      <div>
+        <div className='justify-center items-center flex mt-7'>
+        <div className='grid grid-cols-3 gap-4 w-[94rem] h-[240px]'>
+            <div className='bg-sky-100'>
+                <div className='flex'>
+                  <Image src={black} alt='girl looking at laptop' width={65} height={70} className='border w-7 h-8 rounded-full ml-5 mt-5'/>
+                  <h2 className=' mt-5 ml-5 text-gray-500 text-lg'>Halima Praise</h2>
+                </div>
+                <div>
+                  
+                </div>
+                <div>
+                  <p className='text-lg mt-6'>UIDEX is undoubtedly a revolutionary platform that has unleashed my learning potential, and I highly recommend it to fellow students seeking an exceptional e-learning experience.</p>
+                </div>
+            </div>
+            <div className='bg-sky-100'>
+            <div className='flex'>
+                  <Image src={teach1} alt='girl looking at laptop' width={65} height={70} className='border w-7 h-8 rounded-full ml-5 mt-5'/>
+                  <h2 className=' mt-5 ml-5 text-gray-500 text-lg'>Olamide Okoro</h2>
+                </div>
+                <div>
+                  <p className='text-lg mt-6'>As a student navigating the challenges of remote learning, this e-learning platform has been a true lifesaver. Its user-friendly interface and extensive content library have made studying at home a breeze.</p>
+                </div>
+            </div>
+            <div className='bg-sky-100'>
+            <div className='flex'>
+                  <Image src={teach2} alt='girl looking at laptop' width={65} height={70} className='border w-7 h-8 rounded-full ml-5 mt-5'/>
+                  <h2 className=' mt-5 ml-5 text-gray-500 text-lg'>Zara Hussain</h2>
+                </div>
+                <div>
+                  <p className='text-lg mt-6'>The platform's interactive lessons, quizzes, and real-world examples have made learning engaging and practical. The ability to access the platform from any device ensures that I can continue my studies anytime, anywhere.</p>
+                </div>
+            </div>
+        </div>
+       </div> 
+        <div className='justify-center items-center flex mt-10'>
+        <div className='grid grid-cols-3 gap-4 w-[94rem] h-[240px]'>
+            <div className='bg-sky-100'>
+            <div className='flex'>
+                  <Image src={teach4} alt='girl looking at laptop' width={65} height={70} className='border w-7 h-8 rounded-full ml-5 mt-5'/>
+                  <h2 className=' mt-5 ml-5 text-gray-500 text-lg'>Amarachi Okafor</h2>
+                </div>
+                <div>
+                  <p className='text-lg mt-6'>I particularly love UIDEX because they truly understand how to captivate students' attention. With its use of multimedia elements like videos, animations, and interactive exercises, learning has become an enjoyable experience.</p>
+                </div>
+            </div>
+            <div className='bg-sky-100'>
+            <div className='flex'>
+                  <Image src={teach5} alt='girl looking at laptop' width={65} height={70} className='border w-7 h-8 rounded-full ml-5 mt-5'/>
+                  <h2 className=' mt-5 ml-5 text-gray-500 text-lg'>Zara Hussain</h2>
+                </div>
+                <div>
+                  <p className='text-lg mt-6'>What sets this e-learning platform apart is its personalized approach to learning. Through its adaptive algorithms, the platform tailors the content to my strengths and weaknesses, providing targeted recommendations and feedback.</p>
+                </div>
+            </div>
+            <div className='bg-sky-100'>
+            <div className='flex'>
+                  <Image src={teach7} alt='girl looking at laptop' width={65} height={70} className='border w-7 h-8 rounded-full ml-5 mt-5'/>
+                  <h2 className=' mt-5 ml-5 text-gray-500 text-lg'>Layla Abbas</h2>
+                </div>
+                <div>
+                  <p className='text-lg mt-6'>This e-learning platform has created a vibrant community of learners. Through discussion forums, collaborative projects, and live sessions, students from different backgrounds come together to exchange ideas and support one another.</p>
+                </div>
+            </div>
+        </div>
+       </div> 
+      </div>
+</div>
+  
  
 </>
   )
 }
+
+

@@ -2,6 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import style from '../style.module.css'
 import learn from '../Images/E-learning.jpg'
+import Link from 'next/link'
 
 export default function page() {
   return (
@@ -40,7 +41,8 @@ export default function page() {
 
   <div className='flex gap-3 justify-center '>
    <button className='text-xl border rounded-md border-sky-300 bg-sky-300 text-white hover:bg-white hover:text-gray-500 px-4  py-2 mt-3' >Explore courses</button>
-   <button className='text-xl border rounded-md border-white bg-white text-gray-500 hover:bg-sky-300 hover:border-sky-300 hover:text-white px-6 py-2 mt-3'>Contact us </button>
+   <Link href='/contact'><button className='text-xl border rounded-md border-white bg-white text-gray-500 hover:bg-sky-300 hover:border-sky-300 hover:text-white px-6 py-2 mt-3'>Contact us </button></Link>
+   
   </div>
   
   

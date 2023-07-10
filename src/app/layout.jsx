@@ -4,7 +4,7 @@ import './globals.css'
 import { Cormorant_Garamond } from 'next/font/google'
 
 const coro = Cormorant_Garamond({ subsets: ['latin'],
-weight:["600"]
+weight:["400"]
  })
 
 export const metadata = {
