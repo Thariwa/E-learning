@@ -10,8 +10,9 @@ import Adobe from './Images/Adobe.png'
 import git from './Images/github.png'
 import drib from './Images/dribble.png'
 import pin from './Images/pinterest.png'
-import girl from './Images/python.jpg'
+import python from './Images/python.jpg'
 import black from './Images/blackgirl.jpg'
+import web from './Images/web dev.jpg'
 import hijab from './Images/hijabi.jpg'
 import hijab2 from './Images/hijabi2.jpg'
 import {IoIosPaper} from 'react-icons/io'
@@ -54,7 +55,7 @@ export default function page() {
     <div className='grid grid-cols-3 gap-[300px] '>
       <div className='border rounded-lg w-[389px] h-[420px] bg-sky-100 mt-10 mr-[900px] '>
             <div>
-              <Image src={girl} alt='girl looking at laptop'  className='w-[380px] h-[200px] border rounded-2xl ml-1 mt-1 ' />   
+              <Image src={python} alt='python'  className='w-[380px] h-[200px] border rounded-2xl ml-1 mt-1 ' />   
             </div>
             <div>
               <h2 className='font-bold text-gray-500 text-2xl mt-3 ml-2'>Introduction to Python</h2>
@@ -74,7 +75,7 @@ export default function page() {
       </div>
       <div className='border rounded-lg w-[389px] h-[420px] bg-sky-100 mt-10 mr-[50px] '>
             <div>
-              <Image src={black} alt='black girl looking at laptop'  className='w-[380px] h-[200px] border rounded-2xl ml-1 mt-1 ' />   
+              <Image src={web} alt='web development'  className='w-[380px] h-[200px] border rounded-2xl ml-1 mt-1' />   
             </div>
             <div>
               <h2 className='font-bold text-gray-500 text-2xl mt-3 ml-2'>Web Development Fundamentals</h2>
