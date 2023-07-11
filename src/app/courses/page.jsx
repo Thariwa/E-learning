@@ -118,7 +118,7 @@ const data = [
 const techcourse = data.map(tech =>(
   <section key={tech.id} className='bg-sky-100 border rounded-2xl w-[300px] h-[300px] '>
            <section className='w-32 h-24 border rounded-2xl'>
-             <Image src={tech.image} width={400} height={200}/>
+             <Image src={tech.image} alt='different images' width={400} height={200}/>
            </section>
 
            <section >
