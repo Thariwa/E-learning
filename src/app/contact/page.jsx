@@ -12,7 +12,7 @@ import {BsGithub} from 'react-icons/bs'
 export default function page() {
   return (
     <>
-   <div className='bg-sky-100 h-[300px] w-screen '>
+   <div className='bg-sky-100 h-[300px]'>
         <h1 className='text-center text-4xl pt-10'>Contact <span className='text-gray-500'>Information</span> </h1>
         <p className='text-center text-xl mt-2'> Unlock   <span className='text-gray-500'>boundless</span> knowledge!</p> 
         <p className='text-center text-xl' > join our immersive <span className='text-gray-500'>e-learning platform.</span> </p>
@@ -28,7 +28,7 @@ export default function page() {
         </ul>
    </div>
 
-   <div className='bg-slate-50 flex flex-row w-screen'>
+   <div className='bg-slate-50 flex flex-row'>
         <div className='h-[400px] ml-[200px] pt-[100px] '>
            <div className='bg-sky-100 h-[70px] w-[280px]'>
             <div className='flex'>
@@ -67,9 +67,11 @@ export default function page() {
       </div>
     </div>
 
-    <div className='h-[100px] w-screen mx-[560px] my-[100px]'>
-      <button className='shadow-lg border rounded-xl px-3 py-2 bg-sky-200 text-gray-500 hover:bg-white'> Explore Courses</button>
+    <div className='h-[150px] text-center mt-[100px]'>
+    <button className=' shadow-lg border rounded-xl px-3 py-2 bg-sky-200 text-gray-500 hover:bg-white'> Explore Courses</button>
     </div>
+      
+   
    
     </>
   )

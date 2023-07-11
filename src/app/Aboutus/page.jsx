@@ -14,7 +14,7 @@ export default function page() {
     <div className='mb-[100px]'>  
         <div className='grid grid-cols-2'>
           <div>
-          <Image src={learn} alt='a learning app' width={250} height={45} className='ml-[200px] border border-4 border-solid border-sky-100 mt-5'/>
+          <Image src={learn} alt='a learning app' width={250} height={45} className='ml-[200px] border-4 border-solid border-sky-100 mt-5'/>
           </div>
           <div>
           <p className='text-2xl mx-6 my-6 pt-8'>Welcome to UIDEX, a leading e-learning platform that is revolutionizing the way individuals learn and grow in the digital age. At UIDEX, we believe that education should be accessible to everyone, regardless of their geographical location or socioeconomic status.</p>
@@ -40,7 +40,8 @@ export default function page() {
   <p className='text-center text-xl'>and ignite your intellectual journey with UIDEX.</p>
 
   <div className='flex gap-3 justify-center '>
-   <button className='text-xl border rounded-md border-sky-300 bg-sky-300 text-white hover:bg-white hover:text-gray-500 px-4  py-2 mt-3' >Explore courses</button>
+    <Link href='/courses'><button className='text-xl border rounded-md border-sky-300 bg-sky-300 text-white hover:bg-white hover:text-gray-500 px-4  py-2 mt-3' >Explore courses</button></Link>
+   
    <Link href='/contact'><button className='text-xl border rounded-md border-white bg-white text-gray-500 hover:bg-sky-300 hover:border-sky-300 hover:text-white px-6 py-2 mt-3'>Contact us </button></Link>
    
   </div>

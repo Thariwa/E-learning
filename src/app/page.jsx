@@ -181,7 +181,7 @@ export default function page() {
                   
                 </div>
                 <div>
-                  <p className='text-lg mt-6'>UIDEX is undoubtedly a revolutionary platform that has unleashed my learning potential, and I highly recommend it to fellow students seeking an exceptional e-learning experience.</p>
+                  <p className='text-lg mt-6 p-4'>UIDEX is undoubtedly a revolutionary platform that has unleashed my learning potential, and I highly recommend it to fellow students seeking an exceptional e-learning experience.</p>
                 </div>
             </div>
             <div className='bg-sky-100'>
@@ -190,7 +190,7 @@ export default function page() {
                   <h2 className=' mt-5 ml-5 text-gray-500 text-lg'>Olamide Okoro</h2>
                 </div>
                 <div>
-                  <p className='text-lg mt-6'>As a student navigating the challenges of remote learning, this e-learning platform has been a true lifesaver. Its user-friendly interface and extensive content library have made studying at home a breeze.</p>
+                  <p className='text-lg mt-6 p-4'>As a student navigating the challenges of remote learning, this e-learning platform has been a true lifesaver. Its user-friendly interface and extensive content library have made studying at home a breeze.</p>
                 </div>
             </div>
             <div className='bg-sky-100'>
@@ -199,7 +199,7 @@ export default function page() {
                   <h2 className=' mt-5 ml-5 text-gray-500 text-lg'>Zara Hussain</h2>
                 </div>
                 <div>
-                  <p className='text-lg mt-6'>The platform's interactive lessons, quizzes, and real-world examples have made learning engaging and practical. The ability to access the platform from any device ensures that I can continue my studies anytime, anywhere.</p>
+                  <p className='text-lg mt-6 p-4'>The platform's interactive lessons, quizzes, and real-world examples have made learning engaging and practical. The ability to access the platform from any device ensures that I can continue my studies anytime, anywhere.</p>
                 </div>
             </div>
         </div>
@@ -212,7 +212,7 @@ export default function page() {
                   <h2 className=' mt-5 ml-5 text-gray-500 text-lg'>Amarachi Okafor</h2>
                 </div>
                 <div>
-                  <p className='text-lg mt-6'>I particularly love UIDEX because they truly understand how to captivate students' attention. With its use of multimedia elements like videos, animations, and interactive exercises, learning has become an enjoyable experience.</p>
+                  <p className='text-lg mt-6 p-4'>I particularly love UIDEX because they truly understand how to captivate students' attention. With its use of multimedia elements like videos, animations, and interactive exercises, learning has become an enjoyable experience.</p>
                 </div>
             </div>
             <div className='bg-sky-100'>
@@ -221,7 +221,7 @@ export default function page() {
                   <h2 className=' mt-5 ml-5 text-gray-500 text-lg'>Zara Hussain</h2>
                 </div>
                 <div>
-                  <p className='text-lg mt-6'>What sets this e-learning platform apart is its personalized approach to learning. Through its adaptive algorithms, the platform tailors the content to my strengths and weaknesses, providing targeted recommendations and feedback.</p>
+                  <p className='text-lg mt-6 p-4'>What sets this e-learning platform apart is its personalized approach to learning. Through its adaptive algorithms, the platform tailors the content to my strengths and weaknesses, providing targeted recommendations and feedback.</p>
                 </div>
             </div>
             <div className='bg-sky-100'>
@@ -230,7 +230,7 @@ export default function page() {
                   <h2 className=' mt-5 ml-5 text-gray-500 text-lg'>Layla Abbas</h2>
                 </div>
                 <div>
-                  <p className='text-lg mt-6'>This e-learning platform has created a vibrant community of learners. Through discussion forums, collaborative projects, and live sessions, students from different backgrounds come together to exchange ideas and support one another.</p>
+                  <p className='text-lg mt-6 p-4'>This e-learning platform has created a vibrant community of learners. Through discussion forums, collaborative projects, and live sessions, students from different backgrounds come together to exchange ideas and support one another.</p>
                 </div>
             </div>
         </div>

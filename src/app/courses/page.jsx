@@ -127,8 +127,8 @@ const techcourse = data.map(tech =>(
            </section>
 
 
-           <section className='flex p-4'>
-            <p>{tech.profile}</p>
+           <section className='flex p-4 gap-2'>
+           <Image src={tech.profile} alt='different images' width={20} height={20} className='rounded-full'/>
             <p>by {tech.instructor}</p>
             <p>{tech.duration}</p>
            </section>

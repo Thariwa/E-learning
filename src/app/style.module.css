@@ -36,7 +36,7 @@
 .grid3{
     width: 250px;
     height: 250px;
-    background-color: rgb(107 114 128);
+    background-color: rgb(224 242 254);
     clip-path: inset(5% 20% 25% 10%);
     position: absolute;
     z-index: 3;
