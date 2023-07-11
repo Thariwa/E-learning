@@ -20,7 +20,7 @@ const data = [
           instructor: 'muminat abdullah',
           duration: '6 weeks',
           image: 'https://github.com/Thariwa/E-learning/blob/master/src/app/Images/web%20dev.jpg?raw=true',
-          profile:' https://github.com/Thariwa/E-learning/blob/master/src/app/Pmages/roundphoto.jpg?raw=true'
+          profile:' https://github.com/Thariwa/E-learning/blob/master/src/app/Pmages/blackwoman.jpg?raw=true'
         },
         {
           id: 3,
