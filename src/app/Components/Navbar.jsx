@@ -7,7 +7,7 @@ import {IoMdSearch} from 'react-icons/io'
 
 export default function Navbar() {
   return (
-    <nav className='flex items-center justify-between py-4 px-16 bg-white shadow-lg fixed top-0 left-0 right-0'>
+    <nav className='flex items-center justify-between py-4 px-16 bg-white shadow-lg top-0 left-0 right-0'>
       <div>
         <span className='text-2xl font-bold cursor-pointer text-black'>Uidex</span>
       </div>
