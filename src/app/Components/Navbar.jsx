@@ -2,27 +2,26 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import black from '../Pmages/roundphoto.jpg'
+import {IoMdSearch} from 'react-icons/io'
 
 
 export default function Navbar() {
   return (
-    <nav className='flex items-center justify-between p-5 bg-white h-[10px] shadow-lg w-screen'>
-    <div>
-       <span className='text-2xl cursor-pointer text-black ml-10'>Uidex</span>
-       
+    <nav className='flex items-center justify-between py-4 px-16 bg-white shadow-lg fixed top-0 left-0 right-0'>
+      <div>
+        <span className='text-2xl font-bold cursor-pointer text-black'>Uidex</span>
+      </div>
+      <ul className='flex items-center text-xl gap-10'>
+        <Link href='/'><li className=' text-black hover:text-gray-600'>Home</li></Link>
+        <Link href='/courses'><li className=' text-black hover:text-gray-600' >Courses</li></Link>  
+        <Link href='/contact'><li className=' text-black hover:text-gray-600' >Contact</li></Link>  
+        <Link href='/Aboutus'><li className=' text-black hover:text-gray-600' >About Us</li></Link>
       
-    </div>
-       <ul className='flex items-center ml-80 text-xl'>
-        <Link href='/'><li className='mx-4 my-2'>Home</li></Link>
-        <Link href='/courses'><li className='mx-4 my-2'>Courses</li></Link>  
-        <Link href='/contact'><li className='mx-4 my-2'>Contact</li></Link>  
-        <Link href='/Aboutus'><li className='mx-4 my-2'>About Us</li></Link>
-       
-       </ul> 
-       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className='w-6 h-8 ml-72'>
-        <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
-        </svg>
-        <Image src={black} alt='Woman' width={25} height={25} className='rounded-full mr-2'/>
+      </ul> 
+      <div className='flex items-center gap-6'>
+        <IoMdSearch width={50} height={50} className='w-6 h-6'/>
+        <Image src={black} alt='Woman' width={40} height={40} className='rounded-full w-8 h-8 '/>
+      </div>
     </nav>
   )
 }

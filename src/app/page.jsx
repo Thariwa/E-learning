@@ -30,17 +30,19 @@ import teach5 from './Pmages/Teacher5.jpg'
 export default function page() {
   return (
 <>
-<div className='bg-sky-100 h-screen flex flex-row w-screen'>
-      <div className='ml-[100px]'>
-         <p className='pt-32  font-bold text-4xl w-80'>Unlock Your Potential with Our Comprehensive <span className='text-gray-500'>E-learning</span> Programs</p>
-         <p className='pt-2  text-xl text-gray-500'>Discover a world of knowledge with our online learning platform - Anytime,Anywhere.</p>
-         <Link href='/Getstarted'><button className='border rounded-md border-gray-500 mt-3 mx-2 py-2 px-2 bg-gray-500 text-white hover:bg-white hover:text-gray-500 text-xl'>Get Started</button></Link>
-         
-         <button className='border rounded-md border-gray-500 mt-3 mx-2 py-2 px-2 text-gray-500 hover:bg-gray-500 hover:text-white text-xl'>Explore Courses</button>
+  <div className='bg-sky-100 h-screen flex items-center flex-row px-16 gap-10'>
+    <div className='w-full'>
+      <h1 className='  font-bold text-5xl '>Unlock Your Potential <br /> with Our Comprehensive <br /><span className='text-gray-500'>E-learning</span> Programs</h1>
+      <p className='text-xl text-gray-500 mt-4 mb-6'>Discover a world of knowledge with our online learning platform - Anytime,Anywhere.</p>
+      <div className='flex items-center gap-4'>
+        <Link href='/Getstarted'><button className='border rounded-md border-gray-500 py-2 px-4 bg-gray-500 text-white hover:bg-white hover:text-gray-500 text-xl'>Get Started</button></Link>
+        <Link href='/courses'><button className='border rounded-md border-gray-500 py-2 px-4 text-gray-500 hover:bg-gray-500 hover:text-white text-xl'>Explore Courses</button>
+        </Link>
+      
       </div>
-      <div className={style.clip} >
-      </div>
-</div>
+    </div>
+    <div className={style.clip} > </div>
+  </div>
 
 <div className='flex flex-row gap-10 h-[760px]'>
       <div>
@@ -50,7 +52,6 @@ export default function page() {
       <div className='ml-[650px]'>
          <p className='mt-12 w-96 text-xl'>Discover a world of knowledge with our online learning platform - Anytime,Anywhere.</p>
          <Link href='/courses'><button className='border rounded-md border-gray-500 text-gray-500 hover:bg-gray-500 hover:text-white mt-3 px-4  py-2 text-xl'>Explore</button></Link>
-         
       </div>
     <div className='grid grid-cols-3 gap-[300px] '>
       <div className='border rounded-lg w-[389px] h-[420px] bg-sky-100 mt-10 mr-[900px] '>

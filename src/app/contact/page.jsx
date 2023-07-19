@@ -35,7 +35,7 @@ export default function page() {
                <MdEmail className='w-12 h-12 pt-5'/>
                <h2 className='text-gray-500 text-center text-lg ml-2 mt-4'>Email Address</h2>
             </div>
-            <p className='text-center mr-2'>umarthariwa@gmail.com</p>
+            <Link href='/mailto:umarthariwa@gmail.com'><p className='text-center mr-2'>umarthariwa@gmail.com</p></Link>
             </div>
        
         <div className='bg-sky-100 h-[70px] w-[280px]'>
@@ -68,7 +68,8 @@ export default function page() {
     </div>
 
     <div className='h-[150px] text-center mt-[100px]'>
-    <button className=' shadow-lg border rounded-xl px-3 py-2 bg-sky-200 text-gray-500 hover:bg-white'> Explore Courses</button>
+      <Link href='/courses'><button className=' shadow-lg border rounded-xl px-3 py-2 bg-sky-200 text-gray-500 hover:bg-white'> Explore Courses</button></Link>
+    
     </div>
       
    
