@@ -12,10 +12,10 @@ export default function Navbar() {
         <span className='text-2xl font-bold cursor-pointer text-black'>Uidex</span>
       </div>
       <ul className='flex items-center text-xl gap-10'>
-        <Link href='/'><li className=' text-black hover:text-gray-600'>Home</li></Link>
-        <Link href='/courses'><li className=' text-black hover:text-gray-600' >Courses</li></Link>  
-        <Link href='/contact'><li className=' text-black hover:text-gray-600' >Contact</li></Link>  
-        <Link href='/Aboutus'><li className=' text-black hover:text-gray-600' >About Us</li></Link>
+        <Link href='/'><li className=' text-black hover:text-gray-800'>Home</li></Link>
+        <Link href='/courses'><li className=' text-black hover:text-gray-800' >Courses</li></Link>  
+        <Link href='/contact'><li className=' text-black hover:text-gray-800' >Contact</li></Link>  
+        <Link href='/Aboutus'><li className=' text-black hover:text-gray-800' >About Us</li></Link>
       
       </ul> 
       <div className='flex items-center gap-6'>
